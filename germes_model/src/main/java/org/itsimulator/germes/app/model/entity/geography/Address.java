@@ -1,5 +1,9 @@
 package org.itsimulator.germes.app.model.entity.geography;
 
+import java.util.Set;
+
+import org.itsimulator.germes.app.model.entity.base.AbstractEntity;
+
 /**
  * Value type that stores address attributes
  * of the specific office or person 

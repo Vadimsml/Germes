@@ -1,5 +1,10 @@
 package org.itsimulator.germes.app.model.entity.geography;
 
+import java.util.Set;
+
+import org.itsimulator.germes.app.model.entity.base.AbstractEntity;
+
+
 /**
  * Geographical coordinate of an object
  * @author admin

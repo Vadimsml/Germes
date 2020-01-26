@@ -1,5 +1,7 @@
 package org.itsimulator.germes.app.model.entity.geography;
 
+import java.util.Set;
+
 import org.itsimulator.germes.app.model.entity.base.AbstractEntity;
 import org.itsimulator.germes.app.model.entity.transport.TransportType;
 
