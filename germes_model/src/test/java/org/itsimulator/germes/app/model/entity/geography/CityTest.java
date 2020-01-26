@@ -1,13 +1,13 @@
 package org.itsimulator.germes.app.model.entity.geography;
 
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class CityTest {
-    private boolean containsStation (City city, Station station) {
+    private boolean containsStation(City city, Station station) {
         return city.getStations().contains(station);
     }
+
     @Test
     public void testAddValidStationSuccess() {
         City city = new City();
@@ -15,8 +15,8 @@ public class CityTest {
 
         city.addStation(station);
 
-        assertTrue(containsStation(city,station));
-        assertEquals(city,station.getCity());
+        assertTrue(containsStation(city, station));
+        assertEquals(city, station.getCity());
     }
 
 }

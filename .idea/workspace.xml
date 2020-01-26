@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ce9404-0fac-4276-9565-6be96fc0b5e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/germes_model/src/test/java/org/itsimulator/germes/app/model/entity/geography/CityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/geography/CommonUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes_model/germes_model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/germes_model/germes_model.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/geography/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/geography/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/germes_model/src/test/java/org/itsimulator/germes/app/model/entity/geography/CityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes_model/src/test/java/org/itsimulator/germes/app/model/entity/geography/CityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/germes_model/org/itsimulator/germes/app/model/entity/geography/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/germes_model/org/itsimulator/germes/app/model/entity/geography/City.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/germes_model/org/itsimulator/germes/app/model/entity/geography/CityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/germes_model/org/itsimulator/germes/app/model/entity/geography/CityTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +15,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="39" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -109,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579985025714</updated>
       <workItem from="1579985030305" duration="4572000" />
-      <workItem from="1580033361542" duration="7581000" />
+      <workItem from="1580033361542" duration="10409000" />
     </task>
     <servers />
   </component>
@@ -130,7 +135,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Germes$CityTest_testAddValidStationSuccess.ic" NAME="CityTest.testAddValidStationSuccess Coverage Results" MODIFIED="1580040496376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Germes$CityTest_testAddValidStationSuccess.ic" NAME="CityTest.testAddValidStationSuccess Coverage Results" MODIFIED="1580044916753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.itsimulator.germes.app.model.entity.geography.*</FILTER>
     </SUITE>
   </component>
