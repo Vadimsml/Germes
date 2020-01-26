@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/germes_model/germes_model.iml" filepath="$PROJECT_DIR$/germes_model/germes_model.iml" />
-      <module fileurl="file://$PROJECT_DIR$/germes_persistence/germes_persistence.iml" filepath="$PROJECT_DIR$/germes_persistence/germes_persistence.iml" />
     </modules>
   </component>
 </project>

@@ -7,7 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="germes_presentation" />
+        <module name="germes_persistence" />
+        <module name="germes_model" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="germes_model" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
