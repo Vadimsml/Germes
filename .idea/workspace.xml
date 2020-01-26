@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ce9404-0fac-4276-9565-6be96fc0b5e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/germes_model/src/test/java/org/itsimulator/germes/app/model/entity/geography/CityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/germes_model/germes_model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/germes_model/germes_model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/geography/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/geography/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/geography/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/geography/Coordinate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/geography/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/geography/Station.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/transport/TransportType.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/transport/TransportType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/geography/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/geography/City.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -39,18 +35,30 @@
   <component name="ProjectId" id="1Wu2BlJJOFbJOaak95aToOVdWzf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/germes_model/src" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../javaTestSE" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.itsimulator.germes.app.model.entity.geography" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\Germes\germes_model\src\test\java" />
     </key>
@@ -67,6 +75,29 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="CityTest.testAddValidStationSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="germes_model" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.itsimulator.germes.app.model.entity.geography.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.itsimulator.germes.app.model.entity.geography" />
+      <option name="MAIN_CLASS_NAME" value="org.itsimulator.germes.app.model.entity.geography.CityTest" />
+      <option name="METHOD_NAME" value="testAddValidStationSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CityTest.testAddValidStationSuccess" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -78,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579985025714</updated>
       <workItem from="1579985030305" duration="4572000" />
-      <workItem from="1580033361542" duration="4720000" />
+      <workItem from="1580033361542" duration="7581000" />
     </task>
     <servers />
   </component>
@@ -97,5 +128,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Germes$CityTest_testAddValidStationSuccess.ic" NAME="CityTest.testAddValidStationSuccess Coverage Results" MODIFIED="1580040496376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.itsimulator.germes.app.model.entity.geography.*</FILTER>
+    </SUITE>
   </component>
 </project>
