@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ce9404-0fac-4276-9565-6be96fc0b5e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/infra/util/CommonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/service/GeographicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/service/impl/GeographicServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/germes_model/src/test/java/org/itsimulator/germes/app/service/GeographicServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/search/criteria/StationCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/search/criteria/range/RangeCriteria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/geography/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/geography/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/geography/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/geography/Station.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/transport/TransportType.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes_model/src/main/java/org/itsimulator/germes/app/model/entity/transport/TransportType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes_model/src/test/java/org/itsimulator/germes/app/model/entity/geography/CityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes_model/src/test/java/org/itsimulator/germes/app/model/entity/geography/CityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/germes_model/org/itsimulator/germes/app/model/entity/geography/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/germes_model/org/itsimulator/germes/app/model/entity/geography/City.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/germes_model/org/itsimulator/germes/app/model/entity/geography/Station.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/germes_model/org/itsimulator/germes/app/model/entity/geography/Station.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/germes_model/org/itsimulator/germes/app/model/entity/geography/CityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/germes_model/org/itsimulator/germes/app/model/entity/geography/CityTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +193,7 @@
       <workItem from="1580572599752" duration="147000" />
       <workItem from="1580574513368" duration="602000" />
       <workItem from="1580597091639" duration="2621000" />
-      <workItem from="1580635210198" duration="3399000" />
+      <workItem from="1580635210198" duration="6012000" />
     </task>
     <servers />
   </component>
