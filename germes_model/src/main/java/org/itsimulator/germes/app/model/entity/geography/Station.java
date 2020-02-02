@@ -1,5 +1,6 @@
 package org.itsimulator.germes.app.model.entity.geography;
 
+import java.util.Objects;
 import java.util.Set;
 
 import org.itsimulator.germes.app.model.entity.base.AbstractEntity;
@@ -7,62 +8,67 @@ import org.itsimulator.germes.app.model.entity.transport.TransportType;
 
 /**
  * Station where passengers can get off or take specific kind
- * of transport. Multiple stationts compose route of the trip.  
- * @author admin
+ * of transport. Multiple stationts compose route of the trip.
  *
+ * @author admin
  */
 public class Station extends AbstractEntity {
-	private City city;
-	
-	private Address address;
-	
-	/**
-	 * (Optional) Phone of the inquiry office
-	 */
-	private String phone;
-	
-	private Coordinate coordinate;
-	
-	private TransportType transportType;
+    private City city;
 
-	public City getCity() {
-		return city;
-	}
+    private Address address;
 
-	public void setCity(City city) {
-		this.city = city;
-	}
+    /**
+     * (Optional) Phone of the inquiry office
+     */
+    private String phone;
 
-	public Address getAddress() {
-		return address;
-	}
+    private Coordinate coordinate;
 
-	public void setAddress(Address address) {
-		this.address = address;
-	}
+    private TransportType transportType;
 
-	public String getPhone() {
-		return phone;
-	}
+    public Station(final City city, final TransportType transportType) {
+        this.city = Objects.requireNonNull(city);
+        this.transportType = Objects.requireNonNull(transportType);
+    }
 
-	public void setPhone(String phone) {
-		this.phone = phone;
-	}
+    public City getCity() {
+        return city;
+    }
 
-	public Coordinate getCoordinate() {
-		return coordinate;
-	}
+    public void setCity(City city) {
+        this.city = city;
+    }
 
-	public void setCoordinate(Coordinate coordinate) {
-		this.coordinate = coordinate;
-	}
+    public Address getAddress() {
+        return address;
+    }
 
-	public TransportType getTransportType() {
-		return transportType;
-	}
+    public void setAddress(Address address) {
+        this.address = address;
+    }
 
-	public void setTransportType(TransportType transportType) {
-		this.transportType = transportType;
-	}
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public Coordinate getCoordinate() {
+        return coordinate;
+    }
+
+    public void setCoordinate(Coordinate coordinate) {
+        this.coordinate = coordinate;
+    }
+
+    public TransportType getTransportType() {
+        return transportType;
+    }
+
+    public void setTransportType(TransportType transportType) {
+        this.transportType = transportType;
+    }
 
 }
