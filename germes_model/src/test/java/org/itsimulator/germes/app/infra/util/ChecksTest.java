@@ -6,7 +6,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class ChecksTest {
-    
     @Test
     public void testCheckParameterGetException() {
         try {
